@@ -1,0 +1,78 @@
+/*공용클래스*/
+
+.blind{
+   position: absolute;
+   width: 1px; height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   clip: rect(0 0 0 0);
+}
+
+.inner{
+    width: 1152px;
+    margin: 0 auto;
+    min-width: 1152px;
+}
+
+
+/*
+     공용이미지
+*/
+
+header .header_top > h1 a,
+.pagination .control_btn .btn,
+.header_bottom .search button,
+.new_event .view_all,
+.main_board p.more,
+.footer_bottom .call,
+.banner01 .controls .wrap a{
+    background-image:url(../images/icon_set_common.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.main_top .slide .controls .wrap a{
+    background-image:url(../images/icon_set_common_2019.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+
+.header_bottom h1{
+    background-image:url(../images/seoul_logo.png);
+    background-size: 180px;
+    background-repeat: no-repeat;  
+}
+
+.corona_news .vaccine_now,
+.corona_news .corona19now{
+    background-image:url(../images/corona_table.jpg);
+    background-size: 360px;
+    background-repeat: no-repeat;  
+}
+
+
+main .main_top .slide .content .nav .bg i{
+    background-image:url(../images/icon_main_2019.png);
+    background-size: 300px;
+    background-repeat: no-repeat;  
+}
+
+.sc_service ul li a i{
+    background-image:url(../images/icon_set_service_2021.png);
+    background-size: 1140px;
+    background-repeat: no-repeat;  
+}
+
+.board .content.seoul_sns ul li a{
+    background-image:url(../images/ico_sns_list_2021.png); 
+    background-size: 280px;
+    background-repeat: no-repeat;  
+}
+
+.footer_sns a{
+    background-image:url(../images/icon_set_sns.png); 
+    background-size: 175px;
+    background-repeat: no-repeat;     
+}
+
